@@ -1,0 +1,36 @@
+---
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+- arch: x86_64
+  packages:
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/a/apr-1.7.0-12.el9_3.x86_64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 129032
+    checksum: sha256:7a8d216d45355f7b656777fcb874a0803d5e97a3e7575b8b58dc7bf608919459
+    name: apr
+    evr: 1.7.0-12.el9_3
+    sourcerpm: apr-1.7.0-12.el9_3.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/a/apr-util-1.6.1-23.el9.x86_64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 99555
+    checksum: sha256:fdafa0c878091c68d7e4ff66bdffa2d3a39904351128b55caafc896175651718
+    name: apr-util
+    evr: 1.6.1-23.el9
+    sourcerpm: apr-util-1.6.1-23.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/a/apr-util-bdb-1.6.1-23.el9.x86_64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 14447
+    checksum: sha256:d996f1e3b3375cd48b9910f31965e0e8c0df99b553dcac8c4368ac6ed5177623
+    name: apr-util-bdb
+    evr: 1.6.1-23.el9
+    sourcerpm: apr-util-1.6.1-23.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/h/httpd-tools-2.4.62-7.el9.x86_64.rpm
+    repoid: ubi-9-appstream-rpms
+    size: 81547
+    checksum: sha256:9ebdbb0fb57725afd8f06da193394ecd692599199eb0785e42e7c1eb79847d97
+    name: httpd-tools
+    evr: 2.4.62-7.el9
+    sourcerpm: httpd-2.4.62-7.el9.src.rpm
+  source: []
+  module_metadata: []
